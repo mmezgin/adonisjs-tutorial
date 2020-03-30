@@ -1,1 +1,2 @@
 adonis make:[controller,view etc.] [name]
+adonis migration:run
