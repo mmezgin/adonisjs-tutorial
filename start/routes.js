@@ -1,5 +1,7 @@
 'use strict'
 
+const { route } = require('@adonisjs/framework/src/Route/Manager')
+
 /*
 |--------------------------------------------------------------------------
 | Routes
@@ -23,3 +25,5 @@ Route.get('/test', () => 'Hello World !')
 Route.get('/test/:id', function({ params }) {
     return `The test ID: ${params.id}`;
 })
+
+Route.get('/posts', 'PostController.index')

@@ -1,0 +1,1 @@
+adonis make:[controller,view etc.] [name]
