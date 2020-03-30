@@ -3,9 +3,9 @@
 @section('content')
   <h2>Posts ! </h2>
   <h2>{{title}} </h2>
-  <ul>
+  <ul class="list-group">
     @each(post in posts)
-      <li>{{post.title}}</li>
+  <li class="list-group-item"><a href="/posts/{{post.id}}">{{post.title}}</a></li>
     @endeach
   </ul>
 @endsection

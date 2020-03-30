@@ -27,3 +27,5 @@ Route.get('/test/:id', function({ params }) {
 })
 
 Route.get('/posts', 'PostController.index')
+Route.get('/posts/add', 'PostController.add')
+Route.get("/posts/:id", 'PostController.details')
