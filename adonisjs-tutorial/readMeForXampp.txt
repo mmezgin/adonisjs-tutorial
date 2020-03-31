@@ -1,0 +1,1 @@
+just create a database on xampp->phpmyadmin for mysql
